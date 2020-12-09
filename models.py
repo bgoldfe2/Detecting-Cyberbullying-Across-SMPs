@@ -30,7 +30,7 @@ def lstm_keras(inp_dim, vocab_size, embed_size, num_classes, learn_rate):
     model.compile(loss='categorical_crossentropy',
               optimizer='adam',
               metrics=['accuracy'])
-    print model.summary()
+    print (model.summary())
     return model
 
 
@@ -120,6 +120,6 @@ def get_model(m_type,inp_dim, vocab_size, embed_size, num_classes, learn_rate):
     elif m_type == "blstm_attention":
         model = blstm_atten(inp_dim, vocab_size, embed_size, num_classes, learn_rate)
     else:
-        print "ERROR: Please specify a correst model"
+        print ("ERROR: Please specify a correct model")
         return None
     return model
