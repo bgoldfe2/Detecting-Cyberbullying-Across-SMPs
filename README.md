@@ -23,6 +23,14 @@ We have also used two different kind of embeddings for initialization which can 
 - Sklearn
 - Numpy
 
+#### Currently Implementing using Tensorflow Docker Container
+
+- https://hub.docker.com/r/tensorflow/tensorflow/tags/?page=3&ordering=last_updated
+    -- Using the command, docker pull tensorflow/tensorflow:1.15.4-gpu-py3
+- To run use the following commands
+    -- docker build --rm -f dockerfile -t mytensorflow .
+    -- docker run --rm -d -p 6006:6006 -p 8888:8888 mytensorflow:latest
+
 ### Instructions to run
 
  - models.py : All the model architectures are defined in this file.
