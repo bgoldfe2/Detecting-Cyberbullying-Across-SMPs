@@ -1,0 +1,19 @@
+# base
+scikit-learn==0.21.3
+pandas==0.25.2
+emot==2.1
+spacy==2.2.1
+tqdm==4.36.1
+numpy==1.16.4
+
+# optional
+keras==2.1.3            # (for reproducing neural models)
+# tensorflow==1.13.1      # same, backend to keras
+# tensorflow==1.15.1
+tflearn==0.3.2          # for padding etc. in reproduction
+transformers==2.1.1     # for DistilBERT
+torch==1.3.0            # for transformers
+gensim==3.8.1           # for word2vec
+textblob==0.15.1
+tweet-preprocessor==0.6.0
+theano
