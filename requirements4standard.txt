@@ -12,7 +12,7 @@ keras==2.3.1            # (for reproducing neural models)
 # tensorflow==1.15.1
 tflearn==0.3.2          # for padding etc. in reproduction
 transformers==2.1.1     # for DistilBERT
-torch==1.3.0            # for transformers
+torch>=1.3.0            # for transformers
 gensim==3.8.1           # for word2vec
 textblob==0.15.1
 tweet-preprocessor==0.6.0
