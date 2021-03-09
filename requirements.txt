@@ -1,3 +1,6 @@
+# python version
+# python==3.6.9
+
 # base
 scikit-learn==0.21.3
 pandas==0.25.2
@@ -17,3 +20,10 @@ gensim==3.8.1           # for word2vec
 textblob==0.15.1
 tweet-preprocessor==0.6.0
 theano
+matplotlib
+jupyterlab
+nbconvert
+
+# Outside dependencies for pdf printing
+# sudo apt-get install pandoc
+# sudo apt-get install texlive-vetex
